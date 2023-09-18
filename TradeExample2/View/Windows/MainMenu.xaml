@@ -1,0 +1,130 @@
+﻿<Window x:Class="TradeExample.View.Windows.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TradeExample.View.Windows"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="450" Width="800"
+        MinHeight="450" MinWidth="800"
+        FontFamily="Comic Sans MS" Icon="/TradeExample;component/Resourses/icon.ico"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="{StaticResource ColorSecondary}">
+            <Image HorizontalAlignment="Left"
+                   VerticalAlignment="Center"
+                Source="/TradeExample;component/Resourses/logo.png"/>
+            <TextBlock Text="Товары"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" FontSize="36"/>
+            <TextBlock HorizontalAlignment="Right"
+                       VerticalAlignment="Top"
+                       x:Name="UserNameTB"
+                       Margin="0, 0, 10, 0"
+                       />
+            <Button Content="Выйти"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Width="100"
+                    Margin="0, 0, 10, 0"
+                    Foreground="White"
+                    Click="Exit"
+                    />
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <ComboBox Width="200"
+                      Height="30"
+                      x:Name="SortingCB"
+                      VerticalAlignment="Top"
+                      HorizontalAlignment="Right"
+                      SelectionChanged="SortingCB_SelectionChanged"/>
+                <ComboBox Width="200"
+                      Height="30"
+                      x:Name="FilterCB"
+                      VerticalAlignment="Top"
+                      SelectionChanged="SortingCB_SelectionChanged"
+                      Margin="10, 0, 0, 0"/>
+                <TextBox x:Name="SearchTB" Width="150" 
+                         Height="30" Margin="10, 0, 0, 0"
+                         VerticalAlignment="Top"
+                         TextChanged="Search"/>
+            </StackPanel>
+            <TextBlock x:Name="CountTB"
+                       Margin="0, 5, 10, 0"
+                       VerticalAlignment="Bottom"
+                       HorizontalAlignment="Right"/>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            
+           
+            <ListBox x:Name="ProductLB">
+                <ListBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Добавить к заказу"
+                                  Click="AddToOrder"/>
+                    </ContextMenu>
+                </ListBox.ContextMenu>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal"
+                                    Background="{Binding GetColor}"
+                                    HorizontalAlignment="Right">
+                            <Image Width="50"
+                                   Source="{Binding ProductPhoto}"
+                                   Margin="0, 0, 10, 0"/>
+                            <StackPanel Orientation="Vertical"
+                                        Width="200">
+                                <TextBlock Text="{Binding ProductName}"/>
+                                <TextBlock Text="{Binding ProductDescription}"
+                                           TextWrapping="Wrap"/>
+                                <TextBlock Text="{Binding Manufacturer.ManufacturerName}"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding ProductCost}"
+                                               TextDecorations="Strikethrough"
+                                               Margin="0, 0, 10, 0"
+                                               Visibility="{Binding HasDiscountVisability}"/>
+                                    <TextBlock Text="{Binding GetCostWithDiscount}"/>
+                                </StackPanel>
+                                
+                            </StackPanel>
+                            <TextBlock Text="{Binding GetAmountDiscount}"
+                                       HorizontalAlignment="Right"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+        <Grid Grid.Row="3" Background="{StaticResource ColorSecondary}">
+            <Button Content="Заказы"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Margin="10, 0, 0, 0"
+                    Width="100"
+                    Click="GoToOrders"
+                    x:Name="GoToOrdersBTN"
+                    Foreground="White"
+                    Visibility="Collapsed"/>
+            <Button Content="Заказ"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="0, 0, 10, 0"
+                    Width="100"
+                    Click="GoToOrder" Foreground="White"
+                    Visibility="Collapsed"
+                    x:Name="GoToOrderBTN"/>
+        </Grid>
+    </Grid>
+</Window>

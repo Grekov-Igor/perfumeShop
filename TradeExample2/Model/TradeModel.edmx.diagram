@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ad917ae0dd014779845f7571a25944de" Name="Diagram1">
+        <EntityTypeShape EntityType="ParfModel.Manufacturer" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.Order" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.OrderStatu" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.PickupPoint" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.ProductCategory" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.ProductUnit" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.Provider" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.Role" Width="1.5" PointX="1.5" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ParfModel.User" Width="1.5" PointX="0.75" PointY="17.875" IsExpanded="true" />
+        <AssociationConnector Association="ParfModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_Order_OrderStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_Order_PickupPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_OrderProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_Product_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_Product_ProductUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_Product_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="ParfModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

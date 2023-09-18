@@ -1,0 +1,83 @@
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\TradeExample.exe.config
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\TradeExample.exe
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\TradeExample.pdb
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.csproj.AssemblyReference.cache
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\View\Windows\Main.g.cs
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\App.g.cs
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample_MarkupCompile.cache
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample_MarkupCompile.lref
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\View\Windows\Main.baml
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.g.resources
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.Properties.Resources.resources
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.csproj.GenerateResource.cache
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.csproj.CoreCompileInputs.cache
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.exe
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.pdb
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\App.baml
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\EntityFramework.dll
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\EntityFramework.xml
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\igorg\source\repos\TradeExample\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\View\Windows\MainMenu.g.cs
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample_Content.g.cs
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\View\Windows\MainMenu.baml
+C:\Users\igorg\source\repos\TradeExample\obj\Debug\TradeExample.csproj.CopyComplete
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\TradeExample.exe.config
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\TradeExample.exe
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\TradeExample.pdb
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\EntityFramework.dll
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\EntityFramework.xml
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\igorg\source\repos\TradeExample2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.csproj.AssemblyReference.cache
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\Main.g.cs
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\MainMenu.g.cs
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\App.g.cs
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample_Content.g.cs
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample_MarkupCompile.cache
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample_MarkupCompile.lref
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\App.baml
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\Main.baml
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\MainMenu.baml
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.g.resources
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.Properties.Resources.resources
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.csproj.GenerateResource.cache
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.csproj.CoreCompileInputs.cache
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.csproj.CopyComplete
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.exe
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\TradeExample.pdb
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\OrderWindow.g.cs
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\OrderWindow.baml
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\Orders.g.cs
+C:\Users\igorg\source\repos\TradeExample2\obj\Debug\View\Windows\Orders.baml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\TradeExample.exe.config
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\TradeExample.exe
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\TradeExample.pdb
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\EntityFramework.dll
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\EntityFramework.xml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.csproj.AssemblyReference.cache
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\Main.g.cs
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\MainMenu.g.cs
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\Orders.g.cs
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\OrderWindow.g.cs
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\App.g.cs
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample_Content.g.cs
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample_MarkupCompile.cache
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample_MarkupCompile.lref
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\App.baml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\Main.baml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\MainMenu.baml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\Orders.baml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\View\Windows\OrderWindow.baml
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.g.resources
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.Properties.Resources.resources
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.csproj.GenerateResource.cache
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.csproj.CoreCompileInputs.cache
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.csproj.CopyComplete
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.exe
+C:\Users\igorg\Desktop\Для экза\TradeExample2\obj\Debug\TradeExample.pdb
